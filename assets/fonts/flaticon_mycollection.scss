@@ -1,0 +1,37 @@
+$flaticon_mycollection-font: "flaticon_mycollection";
+
+@font-face {
+    font-family: $flaticon_mycollection-font;
+    src: url("./flaticon_mycollection.ttf?26e58356ad13ecc747208cf6cdb82cb7") format("truetype"),
+url("./flaticon_mycollection.woff?26e58356ad13ecc747208cf6cdb82cb7") format("woff"),
+url("./flaticon_mycollection.woff2?26e58356ad13ecc747208cf6cdb82cb7") format("woff2"),
+url("./flaticon_mycollection.eot?26e58356ad13ecc747208cf6cdb82cb7#iefix") format("embedded-opentype"),
+url("./flaticon_mycollection.svg?26e58356ad13ecc747208cf6cdb82cb7#flaticon_mycollection") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon_mycollection !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon_mycollection-map: (
+    "air-filter": "\f101",
+    "filter": "\f102",
+    "filter-1": "\f103",
+);
+
+.flaticon-air-filter:before {
+    content: map-get($flaticon_mycollection-map, "air-filter");
+}
+.flaticon-filter:before {
+    content: map-get($flaticon_mycollection-map, "filter");
+}
+.flaticon-filter-1:before {
+    content: map-get($flaticon_mycollection-map, "filter-1");
+}
