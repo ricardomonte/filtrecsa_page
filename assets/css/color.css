@@ -2035,7 +2035,7 @@
 
 .handle-preloader.home-16{
 	background: whitesmoke;
-	background-image: url('assets/images/logo_filtrecsa.png');
+	background-image: url('../images/logo_filtrecsa.png');
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center;
