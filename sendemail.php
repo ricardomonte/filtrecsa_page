@@ -2,7 +2,7 @@
 
 // Define some constants
 define( "RECIPIENT_NAME", "Contacto" );
-define( "RECIPIENT_EMAIL", "contacto@filtrecsa.com" );
+define( "RECIPIENT_EMAIL", "xwestmoreland@filtrecsa.com" );
 
 
 // Read the form values
@@ -26,7 +26,7 @@ if ( $userName && $senderEmail && $userPhone && $userSubject && $message) {
 
 else{
 	//Set Location After Unsuccesssfull Submission
-  	header('Location: contact.html?message=Failed');	
+  	header('Location: contact.html?message=Failed');
 }
 
 ?>
